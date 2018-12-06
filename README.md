@@ -1,0 +1,1 @@
+ynn-plugin-mongodb

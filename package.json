@@ -1,0 +1,20 @@
+{
+    "name": "ynn-plugin-mongodb",
+    "description": "",
+    "repository": "https://github.com/ynnjs/ynn-plugin-mongodb.git",
+    "version": "0.0.0",
+    "keywords": [
+        "koa",
+        "ynn",
+        "plugin",
+        "mongodb",
+        "ynn-mongodb"
+    ],
+    "main": "src/index.js",
+    "devDependencies": {
+        "ynn": "0.0.15"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "scripts": {}
+}
