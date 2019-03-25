@@ -10,11 +10,21 @@
         "mongodb",
         "ynn-mongodb"
     ],
-    "main": "src/index.js",
+    "main": "lib/index.js",
     "devDependencies": {
-        "ynn": "0.0.15"
+        "jest": "^24.5.0",
+        "ynn": "0.0.43"
     },
     "license": "MIT",
-    "dependencies": {},
-    "scripts": {}
+    "dependencies": {
+        "mongoose": "^5.4.19"
+    },
+    "scripts": {
+        "test": "jest --forceExit",
+        "tw": "jest --watch",
+        "test-watch": "npm run tw",
+        "test-cov": "jest --coverage --runInBand --forceExit --detectOpenHandles",
+        "lint": "eslint lib --cache --ignore-path .eslintignore",
+        "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+    }
 }
